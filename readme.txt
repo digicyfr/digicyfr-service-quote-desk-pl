@@ -3,7 +3,8 @@ Contributors: digicyfr
 Tags: quote, service, inquiry, polish, lead
 Requires at least: 7.1
 Requires PHP: 8.3
-Stable tag: 0.1.0
+Tested up to: 7.1
+Stable tag: 0.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -36,6 +37,9 @@ No. Preferred callback time is a request, not a reserved slot.
 No. Staff contact the customer and update the status manually.
 
 == Changelog ==
+
+= 0.1.1 =
+* Complete Plugin Check readme metadata and close CSV output through PHP request shutdown.
 
 = 0.1.0 =
 * Initial request form, private workflow, CSV, retention and privacy hooks.

@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Digicyfr Service Quote Desk PL 0.1.0\nLanguage: pl_PL\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+msgstr "Project-Id-Version: Digicyfr Service Quote Desk PL 0.1.1\nLanguage: pl_PL\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 msgid "A saved request remains in the inbox even if email is not accepted by WordPress mail."
 msgstr "Zapisane zapytanie pozostaje w skrzynce, nawet jeśli poczta WordPress nie przyjmie wiadomości."

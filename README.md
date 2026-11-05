@@ -2,9 +2,11 @@
 
 A free WordPress plugin for Polish service firms that price work individually. A customer sends a short quote request from a phone; staff track contact, quote and outcome in a private WordPress inbox. English and Polish strings are included.
 
-[Download the current ZIP](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/releases/tag/v0.1.0) · [Release source](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/tree/release/0.1.0) · [QA record](docs/QA-0.1.0.md)
+[Download the current ZIP](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/releases/tag/v0.1.1) · [Release source](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/tree/release/0.1.1) · [QA record](docs/QA-0.1.1.md)
 
 **Po polsku:** Zbieraj zapytania o wycenę usług i pilnuj odpowiedzi w prywatnej skrzynce WordPress. Wtyczka nie rezerwuje terminów i nie pobiera płatności.
+
+![Mobile quote request form from a disposable WordPress test site](docs/evidence/0.1.1/quote-form-mobile.png)
 
 ## Install and use
 
@@ -29,7 +31,7 @@ From the portfolio workspace:
 
 ```bash
 python3 plugins/digicyfr-service-quote-desk-pl/scripts/release.py
-bash plugins/digicyfr-service-quote-desk-pl/tests/run-wordpress-integration.sh plugins/digicyfr-service-quote-desk-pl/dist/digicyfr-service-quote-desk-pl-0.1.0.zip
+bash plugins/digicyfr-service-quote-desk-pl/tests/run-wordpress-integration.sh plugins/digicyfr-service-quote-desk-pl/dist/digicyfr-service-quote-desk-pl-0.1.1.zip
 ```
 
 For the optional browser smoke, set `DIGICYFR_BROWSER_TEST=1` and provide `DIGICYFR_PLAYWRIGHT_MODULE` (path to `playwright-core` if not installed locally) and `DIGICYFR_CHROMIUM_PATH` (browser binary) before running the integration command. Set `DIGICYFR_AXE_PATH` to an `axe.min.js` file to include plugin-owned accessibility scans.

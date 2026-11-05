@@ -32,7 +32,19 @@ sudo -n docker cp "$plugin_dir/tests/wp-integration.php" "$container:/tmp/digicy
 sudo -n docker cp "$plugin_dir/tests/browser-site.php" "$container:/tmp/digicyfr-browser-site.php" >/dev/null
 sudo -n docker exec -e "DIGICYFR_TEST_PORT=$port" "$container" php /tmp/digicyfr-install-site.php
 sudo -n docker exec -e "DIGICYFR_PLUGIN_SLUG=digicyfr-service-quote-desk-pl" -e "DIGICYFR_TEST_PORT=$port" "$container" php /tmp/digicyfr-smoke.php
-for phase in base update verify delete verify-delete; do
+sudo -n docker exec -e "DIGICYFR_TEST_PORT=$port" "$container" php /tmp/digicyfr-wp-integration.php base
+csv_file="$(mktemp)"
+sudo -n docker exec -e "DIGICYFR_TEST_PORT=$port" "$container" php /tmp/digicyfr-wp-integration.php export > "$csv_file"
+python3 - "$csv_file" <<'PY'
+import csv
+import sys
+with open(sys.argv[1], newline='', encoding='utf-8') as handle:
+    rows = list(csv.DictReader(handle))
+assert len(rows) == 1 and rows[0]['customer_name'] == "'=2+2", 'CSV export or formula neutralization failed'
+print('CSV export and formula neutralization verified')
+PY
+rm -f "$csv_file"
+for phase in update verify delete verify-delete; do
   sudo -n docker exec -e "DIGICYFR_TEST_PORT=$port" "$container" php /tmp/digicyfr-wp-integration.php "$phase"
 done
 if [[ "${DIGICYFR_BROWSER_TEST:-0}" == "1" ]]; then

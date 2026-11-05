@@ -53,6 +53,11 @@ if ($phase === 'base') {
     check(in_array($row->notification_status, ['accepted', 'failed'], true), 'Notification state not saved');
     update_option('digicyfr_quote_test_id', $id);
     echo "Base request saved: #$id\n";
+} elseif ($phase === 'export') {
+    $id = (int) get_option('digicyfr_quote_test_id');
+    $wpdb->update($table, ['customer_name' => '=2+2'], ['id' => $id]);
+    $_REQUEST['_wpnonce'] = wp_create_nonce('digicyfr_quote_export');
+    Digicyfr_Service_Quote_Desk_PL::handle_export();
 } elseif ($phase === 'update') {
     $id = (int) get_option('digicyfr_quote_test_id');
     $_POST = [

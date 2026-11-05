@@ -1,6 +1,10 @@
-# Digicyfr Service Quote Desk PL 0.1.0
+# Digicyfr Service Quote Desk PL 0.1.1
 
-First self-hosted GPL-2.0-or-later release. Install the attached ZIP through WordPress. The `release/0.1.0` branch and `v0.1.0` tag record its source. Verify the ZIP against the attached SHA-256 sidecar before installation.
+Current stable self-hosted GPL-2.0-or-later release. Install the attached ZIP through WordPress. The `release/0.1.1` branch and `v0.1.1` tag record its source; the earlier v0.1.0 remains available. Verify the ZIP against the attached SHA-256 sidecar before installation.
+
+## Changes from 0.1.0
+
+Add the WordPress readme's tested-version header and let PHP close the CSV output stream at request shutdown. The quote form, private workflow and CSV contents are unchanged.
 
 ## Included
 
@@ -10,4 +14,4 @@ A public service quote form as a block or shortcode; a private administrator inb
 
 The form does not calculate a price, book an appointment or process a payment. WordPress mail acceptance does not prove delivery, so review the inbox and test the site's mail service. Follow-up dates are visible in the inbox but send no automatic reminder. WordPress cron may run later than its scheduled time. Phone-only requests require manual deletion in the inbox. Deactivation and uninstall preserve stored requests.
 
-The unique `Update URI` prevents a same-slug WordPress.org plugin from replacing this self-hosted plugin; it does not provide automatic updates. WordPress.org distribution needs separate review and channel-specific changes. See [QA record](docs/QA-0.1.0.md).
+The unique `Update URI` prevents a same-slug WordPress.org plugin from replacing this self-hosted plugin; it does not provide automatic updates. WordPress.org distribution needs separate review and channel-specific changes. See [QA record](docs/QA-0.1.1.md).

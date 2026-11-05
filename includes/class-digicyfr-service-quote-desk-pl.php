@@ -100,7 +100,7 @@ final class Digicyfr_Service_Quote_Desk_PL {
 	/** Register the public block, scripts and translations. */
 	public static function register_block(): void {
 		load_plugin_textdomain( 'digicyfr-service-quote-desk-pl', false, dirname( plugin_basename( DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ) ) . '/languages' );
-		wp_register_script( 'digicyfr-quote-desk-editor', plugins_url( 'blocks/quote-form/editor.js', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array( 'wp-blocks', 'wp-element', 'wp-components' ), '0.1.0', true );
+		wp_register_script( 'digicyfr-quote-desk-editor', plugins_url( 'blocks/quote-form/editor.js', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array( 'wp-blocks', 'wp-element', 'wp-components' ), '0.1.1', true );
 		wp_localize_script(
 			'digicyfr-quote-desk-editor',
 			'digicyfrQuoteDeskLabels',
@@ -110,8 +110,8 @@ final class Digicyfr_Service_Quote_Desk_PL {
 				'preview'     => __( 'The request form appears on the published page.', 'digicyfr-service-quote-desk-pl' ),
 			)
 		);
-		wp_register_style( 'digicyfr-quote-desk-form', plugins_url( 'assets/form.css', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.0' );
-		wp_register_script( 'digicyfr-quote-desk-form', plugins_url( 'assets/form.js', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.0', true );
+		wp_register_style( 'digicyfr-quote-desk-form', plugins_url( 'assets/form.css', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.1' );
+		wp_register_script( 'digicyfr-quote-desk-form', plugins_url( 'assets/form.js', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.1', true );
 		register_block_type( DIGICYFR_QUOTE_DESK_PATH . 'blocks/quote-form', array( 'render_callback' => array( __CLASS__, 'render_form' ) ) );
 	}
 
@@ -320,7 +320,7 @@ final class Digicyfr_Service_Quote_Desk_PL {
 	 */
 	public static function admin_assets( string $hook ): void {
 		if ( false !== strpos( $hook, 'digicyfr-quote-' ) ) {
-			wp_enqueue_style( 'digicyfr-quote-desk-admin', plugins_url( 'assets/admin.css', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.0' );
+			wp_enqueue_style( 'digicyfr-quote-desk-admin', plugins_url( 'assets/admin.css', DIGICYFR_QUOTE_DESK_PATH . 'digicyfr-service-quote-desk-pl.php' ), array(), '0.1.1' );
 		}
 	}
 
@@ -663,7 +663,6 @@ final class Digicyfr_Service_Quote_Desk_PL {
 			}
 			$row_count = count( $rows );
 		} while ( 200 === $row_count );
-		fclose( $out );
 		exit;
 	}
 

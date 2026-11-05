@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Digicyfr Service Quote Desk PL
  * Description: Private inquiry and quote follow-up for Polish service businesses.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 7.1
  * Requires PHP: 8.3
  * Author: Digicyfr
