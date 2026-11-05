@@ -4,6 +4,8 @@ A free WordPress plugin for Polish service firms that price work individually. A
 
 [Download the current ZIP](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/releases/tag/v0.1.1) · [Release source](https://github.com/digicyfr/digicyfr-service-quote-desk-pl/tree/release/0.1.1) · [QA record](docs/QA-0.1.1.md)
 
+[English overview and installation](https://www.digicyfr.com/en/wordpress-plugins/digicyfr-service-quote-desk-pl) · [Opis i instalacja po polsku](https://www.digicyfr.com/pl/wordpress-plugins/digicyfr-service-quote-desk-pl)
+
 **Po polsku:** Zbieraj zapytania o wycenę usług i pilnuj odpowiedzi w prywatnej skrzynce WordPress. Wtyczka nie rezerwuje terminów i nie pobiera płatności.
 
 ![Mobile quote request form from a disposable WordPress test site](docs/evidence/0.1.1/quote-form-mobile.png)
