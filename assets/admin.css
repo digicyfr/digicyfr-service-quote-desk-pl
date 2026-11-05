@@ -1,0 +1,9 @@
+.digicyfr-quote-admin .digicyfr-quote-counts { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: 1rem 0; }
+.digicyfr-quote-admin .digicyfr-quote-counts li { margin: 0; }
+.digicyfr-quote-admin .digicyfr-quote-table-wrap { overflow-x: auto; margin-top: 1rem; }
+.digicyfr-quote-admin .digicyfr-quote-table-wrap table { min-width: 700px; }
+.digicyfr-quote-details { display: grid; grid-template-columns: minmax(9rem, 12rem) minmax(0, 45rem); gap: .7rem 1rem; max-width: 60rem; }
+.digicyfr-quote-details dt { font-weight: 600; }
+.digicyfr-quote-details dd { margin: 0; overflow-wrap: anywhere; }
+.digicyfr-quote-preline { white-space: pre-line; }
+@media (max-width: 640px) { .digicyfr-quote-details { display: block; } .digicyfr-quote-details dt { margin-top: .9rem; } }

@@ -1,0 +1,10 @@
+digicyfr-service-quote-desk-pl.php
+includes/class-digicyfr-service-quote-desk-pl.php
+blocks/quote-form/block.json
+blocks/quote-form/editor.js
+assets/form.css
+assets/form.js
+assets/admin.css
+languages/digicyfr-service-quote-desk-pl-pl_PL.mo
+readme.txt
+LICENSE

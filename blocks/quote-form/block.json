@@ -1,0 +1,12 @@
+{
+  "apiVersion": 3,
+  "name": "digicyfr/service-quote-form",
+  "title": "Service Quote Request",
+  "category": "widgets",
+  "icon": "email-alt2",
+  "description": "Show a service quote request form.",
+  "textdomain": "digicyfr-service-quote-desk-pl",
+  "editorScript": "digicyfr-quote-desk-editor",
+  "style": "digicyfr-quote-desk-form",
+  "supports": { "html": false }
+}

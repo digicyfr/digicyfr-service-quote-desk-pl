@@ -1,0 +1,256 @@
+msgid ""
+msgstr "Project-Id-Version: Digicyfr Service Quote Desk PL 0.1.0\nLanguage: pl_PL\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "A saved request remains in the inbox even if email is not accepted by WordPress mail."
+msgstr "Zapisane zapytanie pozostaje w skrzynce, nawet jeśli poczta WordPress nie przyjmie wiadomości."
+
+msgid "A site-local calendar date. No automatic reminder is sent."
+msgstr "Data kalendarzowa w strefie czasowej witryny. Automatyczne przypomnienie nie jest wysyłane."
+
+msgid "All"
+msgstr "Wszystkie"
+
+msgid "Assignee"
+msgstr "Osoba odpowiedzialna"
+
+msgid "Back to requests"
+msgstr "Wróć do zapytań"
+
+msgid "Choose a service"
+msgstr "Wybierz usługę"
+
+msgid "City or postcode"
+msgstr "Miasto lub kod pocztowy"
+
+msgid "Confirm permanent deletion."
+msgstr "Potwierdź trwałe usunięcie."
+
+msgid "Contacted"
+msgstr "Skontaktowano się"
+
+msgid "Could not save the update."
+msgstr "Nie udało się zapisać zmiany."
+
+msgid "Customer"
+msgstr "Klient"
+
+msgid "Delete permanently"
+msgstr "Usuń trwale"
+
+msgid "Delete request"
+msgstr "Usuń zapytanie"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Email notice"
+msgstr "Powiadomienie e-mail"
+
+msgid "Export CSV"
+msgstr "Eksportuj CSV"
+
+msgid "Filter"
+msgstr "Filtruj"
+
+msgid "Follow-up"
+msgstr "Kontakt ponowny"
+
+msgid "Follow-up date"
+msgstr "Data ponownego kontaktu"
+
+msgid "How we use your information"
+msgstr "Jak wykorzystujemy Twoje dane"
+
+msgid "I understand this permanently deletes this request."
+msgstr "Rozumiem, że to trwale usunie zapytanie."
+
+msgid "Internal note"
+msgstr "Notatka wewnętrzna"
+
+msgid "Invalid request update."
+msgstr "Nieprawidłowa zmiana zapytania."
+
+msgid "Invalid settings."
+msgstr "Nieprawidłowe ustawienia."
+
+msgid "Link to your own privacy notice. Review the legal basis and wording for your business."
+msgstr "Link do własnej informacji o prywatności. Sprawdź podstawę prawną i treść dla swojej firmy."
+
+msgid "Lost"
+msgstr "Utracone"
+
+msgid "New"
+msgstr "Nowe"
+
+msgid "New quote request #%d"
+msgstr "Nowe zapytanie o wycenę #%d"
+
+msgid "New request #%d\nService: %s\nLocation: %s\nName: %s\nEmail: %s\nPhone: %s\nDetails: %s\n\nReview: %s"
+msgstr "Nowe zapytanie #%d\nUsługa: %s\nLokalizacja: %s\nImię i nazwisko: %s\nE-mail: %s\nTelefon: %s\nOpis: %s\n\nOtwórz: %s"
+
+msgid "Next"
+msgstr "Następna"
+
+msgid "No requests found."
+msgstr "Nie znaleziono zapytań."
+
+msgid "Notification email"
+msgstr "Adres e-mail do powiadomień"
+
+msgid "One service per line, up to 30. Leave blank for a free-text service field."
+msgstr "Jedna usługa w wierszu, maksymalnie 30. Pozostaw puste, aby klient wpisał usługę samodzielnie."
+
+msgid "Page %1$d of %2$d"
+msgstr "Strona %1$d z %2$d"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Please check the required fields and try again."
+msgstr "Sprawdź wymagane pola i spróbuj ponownie."
+
+msgid "Please choose a listed service."
+msgstr "Wybierz usługę z listy."
+
+msgid "Preferred callback time"
+msgstr "Preferowana pora kontaktu"
+
+msgid "Preferred callback time (optional)"
+msgstr "Preferowana pora kontaktu (opcjonalnie)"
+
+msgid "Previous"
+msgstr "Poprzednia"
+
+msgid "Privacy notice URL"
+msgstr "Adres informacji o prywatności"
+
+msgid "Private customer requests. Dates use the WordPress site timezone."
+msgstr "Prywatne zapytania klientów. Daty używają strefy czasowej witryny WordPress."
+
+msgid "Provide an email address or phone number so we can reply."
+msgstr "Podaj adres e-mail lub numer telefonu, abyśmy mogli odpowiedzieć."
+
+msgid "Quote Desk"
+msgstr "Skrzynka wycen"
+
+msgid "Quote Desk Settings"
+msgstr "Ustawienia skrzynki wycen"
+
+msgid "Quote sent"
+msgstr "Wysłano wycenę"
+
+msgid "Received"
+msgstr "Otrzymano"
+
+msgid "Request #%d"
+msgstr "Zapytanie #%d"
+
+msgid "Request a quote"
+msgstr "Poproś o wycenę"
+
+msgid "Request not found or deletion failed."
+msgstr "Nie znaleziono zapytania lub usunięcie się nie powiodło."
+
+msgid "Request not found."
+msgstr "Nie znaleziono zapytania."
+
+msgid "Request rejected."
+msgstr "Zapytanie odrzucono."
+
+msgid "Request updated."
+msgstr "Zaktualizowano zapytanie."
+
+msgid "Requests older than this are deleted daily, including open requests. Default: 180 days."
+msgstr "Starsze zapytania są usuwane codziennie, także otwarte. Domyślnie: 180 dni."
+
+msgid "Retention (days)"
+msgstr "Przechowywanie (dni)"
+
+msgid "Save request"
+msgstr "Zapisz zapytanie"
+
+msgid "Service"
+msgstr "Usługa"
+
+msgid "Service Quote Desk"
+msgstr "Skrzynka wycen usług"
+
+msgid "Service Quote Request"
+msgstr "Zapytanie o wycenę usługi"
+
+msgid "Service quote requests"
+msgstr "Zapytania o wycenę usług"
+
+msgid "Services"
+msgstr "Usługi"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Settings saved."
+msgstr "Zapisano ustawienia."
+
+msgid "Show a service quote request form."
+msgstr "Pokaż formularz zapytania o wycenę usługi."
+
+msgid "Some requests could not be erased."
+msgstr "Niektórych zapytań nie udało się usunąć."
+
+msgid "Source page"
+msgstr "Strona źródłowa"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Thank you. Your request has been saved."
+msgstr "Dziękujemy. Twoje zapytanie zostało zapisane."
+
+msgid "The form expired. Reload the page and try again."
+msgstr "Formularz wygasł. Odśwież stronę i spróbuj ponownie."
+
+msgid "The request could not be saved. Please try again."
+msgstr "Nie udało się zapisać zapytania. Spróbuj ponownie."
+
+msgid "The request form appears on the published page."
+msgstr "Formularz zapytania pojawi się na opublikowanej stronie."
+
+msgid "Too many requests. Please try again later."
+msgstr "Zbyt wiele zapytań. Spróbuj ponownie później."
+
+msgid "Top source pages"
+msgstr "Najczęstsze strony źródłowe"
+
+msgid "Unassigned"
+msgstr "Nieprzypisane"
+
+msgid "Use no more than 30 services."
+msgstr "Podaj najwyżej 30 usług."
+
+msgid "Website"
+msgstr "Strona internetowa"
+
+msgid "What work do you need?"
+msgstr "Jakiej usługi potrzebujesz?"
+
+msgid "Won"
+msgstr "Pozyskane"
+
+msgid "You cannot manage quote requests."
+msgstr "Nie możesz zarządzać zapytaniami o wycenę."
+
+msgid "Your name"
+msgstr "Twoje imię i nazwisko"
+msgid "A service name is too long."
+msgstr "Nazwa usługi jest zbyt długa."
+
+msgid "Accepted by WordPress mail (delivery unconfirmed)"
+msgstr "Przyjęte przez pocztę WordPress (dostarczenie niepotwierdzone)"
+
+msgid "Failed; check mail settings"
+msgstr "Niepowodzenie; sprawdź ustawienia poczty"
+
+msgid "Pending"
+msgstr "Oczekuje"
+
+msgid "Request deleted."
+msgstr "Usunięto zapytanie."
